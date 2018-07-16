@@ -116,28 +116,7 @@ while True:
             (x, y, w, h) = cv2.boundingRect(c)
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
             text = "Occupied"
-    48
-    49
-    50
-    51
-    52
-    53
-    54
-    55
-    56
-    57
-    58
-    59
-    60
-    61
-    62
-    63
-    64
-    65
-    66
-    67
-    68
-    69
+
     # compute the absolute difference between the current frame and
     # first frame
     frameDelta = cv2.absdiff(firstFrame, gray)
